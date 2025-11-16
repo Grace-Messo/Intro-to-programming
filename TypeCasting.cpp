@@ -21,5 +21,12 @@ int main(){
     cout << "Boolean TRUE = " << var << endl;
     cout << "Boolean FALSE = " << var2 <<  endl;
 
-    //EXPLICIT TYPE CASTING
+    //EXPLICIT/MANUAL TYPE CASTING
+    char myChar;
+    int myInt = 45;
+    float myfloat = 4.567;
+    int myNum;
+    myChar = static_cast<char>(myInt);   // int to char
+    myNum = static_cast<int>(myfloat);   // float to integer
+
 }
